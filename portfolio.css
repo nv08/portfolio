@@ -1,0 +1,762 @@
+body{
+
+            background: #F2F2F2;
+            
+        }
+        header{
+            display: flex;
+            height:13em;
+            margin: 4em auto;
+            width:70%;
+            background: #FFFFFF;
+            border-radius: 12px;
+            
+        }
+       
+        .image-div{
+            height:100%;
+            width:30%;
+            margin-left:2em;
+            
+        }
+        .image{
+            max-height:100%;
+            max-width:100%;
+            border-radius: 10px;
+        }
+        .content{
+            display: flex;
+            flex-flow: row wrap;
+            width:70%;
+            
+            height:100%;
+        }
+        .content-1{
+            
+            height:30%;
+            width:60%;
+
+        }
+        .content-2{
+            display: flex;
+            justify-content: flex-end;
+            height:30%;
+            width: 38%;
+        }
+        .content-3{
+            display: flex;
+            width: 80%;
+            height:70%;
+        }
+        h2{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bolder;
+            font-size: 1em;
+            color: #4F4F4F;
+            line-height: 1em;
+            
+        }
+        h3{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1em;
+            color: #4F4F4F;
+        }
+        .contact{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1em;
+            color: #4F4F4F;
+            line-height:1.5em;
+        }
+        .description{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 0.9em;
+            line-height: 22px;
+            color: #828282;
+        }
+        section{
+            display: flex;
+            height:auto;
+            margin: 4em auto;
+            width:70%;
+            background: #F2F2F2;
+            border-radius: 12px;
+            flex-flow: row wrap;
+            justify-content: center;
+            
+        }
+
+        .flex-container-1,.flex-container-2{
+            display: flex;
+            height:70em;
+            width:47%;
+            
+            background: #F2F2F2;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        
+        .flex-container-3{
+            display: flex;
+            height:8em;
+            width:100%;
+            flex-direction: column;
+            background: #FFFFFF; 
+            border-radius: 12px;
+            margin-top: 2em;
+            
+        }
+        .progress-bars{
+            display: flex;
+            height:20%;
+            border-radius: 12px;
+            background: #FFFFFF; 
+            width:95%;
+            line-height: 1em;
+            flex-direction: row ;
+            justify-content: space-around;
+        }
+        .hobbies{
+            display: flex;
+            height:75%;
+            border-radius: 12px;
+            background: #FFFFFF; ;
+            width:90%;
+            flex-direction: column;
+            justify-content: space-evenly;
+            
+        }
+        .prog-heading{
+            width:15%;
+            height:20%;
+            display: flex;
+            justify-content: flex-start;
+        }
+        .skills{
+            display: flex;
+            justify-content: space-evenly;
+            width:30%;
+            height: 80%;
+            margin-top: 4%;
+        }
+        .skills-2{
+            display: flex;
+            width:65%;
+            height:80%;
+            line-height: 2em;
+            flex-flow: column;
+            justify-content: space-evenly;
+            margin:5% 5%
+
+        }
+        li{
+            list-style: none;
+            line-height: 2em;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1em;
+            color: #828282;
+        }
+        .hobby-div{
+            display: flex;
+            height:20%;
+            width:100%;
+            justify-content: space-around;
+            
+        }
+        .hobby-img{
+            max-height:100%;
+            max-width:50%;
+            border-radius: 15px;
+        }
+        .hobby-desc{
+            height:100%;
+            width:45%;
+            
+        }
+        .hobby-para{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 0.9em;
+            line-height: 22px;
+            color: #828282;
+        }
+        .products{
+            display: flex;
+            height:50%;
+            border-radius: 12px;
+            background: #FFFFFF; ;
+            width:90%;
+            line-height: 1em;
+            flex-flow: row wrap;
+            justify-content: center;
+        }
+       
+        .prod-head{
+            height:20%;
+            width:60%;
+            
+            text-align: center;
+            
+        }
+        .prod-img{
+            height:30%;
+            width:90%;
+            
+        }
+        .prod-desc{
+            height:45%;
+            width:80%;
+            
+            
+
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1em;
+            line-height: 22px;
+            color: #828282;
+
+        }
+        .img-product{
+            max-height:100%;
+            max-width:100%;
+        }
+        .experiences{
+            display: flex;
+            height:45%;
+            border-radius: 12px;
+            background: #FFFFFF; 
+            width:90%;
+            line-height: 1em;
+            flex-flow: row wrap;
+        }
+        .upper{
+            display:flex;
+            height:50%;
+            width:100%;
+            justify-content: space-around;
+        }
+        .sm-box{
+            display: flex;
+            height:80%;
+            width: 40%;
+            justify-content: center;
+            align-items: center;
+        }
+        .projects{
+            width: 85px;
+            height: 33px;
+            border: 1px solid #4F4F4F;
+            box-sizing: border-box;
+            border-radius: 12px;
+
+
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 0.9em;
+            line-height: 22px;
+            color: #828282;
+        }
+        .codes{
+            height:auto;
+            width:90%;
+            display: flex;
+            margin-top: 2em;
+            justify-content: space-between;
+            
+        }
+        .code-1{
+            width:30%;
+            display: flex;
+            flex-flow: row wrap;
+            align-content: space-around;
+            justify-content: space-around;
+            background: white;
+            border-radius: 12px;
+            
+        }
+        .code-img{
+            width:90%;
+            height:40%;
+
+        }
+        .img-code-1{
+            max-height: 100%;
+            max-width: 100%;
+            border-radius: 12px;
+        }
+        .hashtags{
+            width:90%;
+        }
+        .hash{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 0.9em;
+            color: #828282;
+        }
+        .code-heading{
+            width:90%;
+        }
+        .code-content{
+            height:25%;
+            width:90%;
+
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 0.9em;
+            color: #828282;
+            overflow: auto;
+            
+        }
+        .code-button{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .demo{
+            width: 45%;
+        
+            border-radius: 12px;
+            background: white;
+
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            color: #2F80ED;
+        }
+        .pages{
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 2em;
+            height:2em;
+            width:90%;
+            
+        }
+        .page-count{
+            margin-right: 1%;
+            display: flex;
+            width:5%;
+            justify-content: center;
+            align-items:center;
+
+            border: 1px solid #4F4F4F;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+        footer{
+            display: flex;
+            height:2%;
+            justify-content: center;
+        }
+        .tail{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            color: #828282;
+        }
+        progress{
+            width: 70%;
+        }
+
+        
+
+        @media (max-width:814px){
+            header{
+            display: flex;
+            height:8em;
+            margin: 2em auto;
+            width:90%;
+            background: #FFFFFF;
+            border-radius: 12px;
+            justify-content: space-around;
+        
+            
+        }
+       
+        .image-div{
+            display: flex;
+            justify-content: center;
+            height:100%;
+            width:15%;
+  
+        } 
+        .image{
+            max-height:100%;
+            max-width:100%;
+            border-radius: 10px;
+        }
+        .content{
+            display: flex;
+            flex-flow: row wrap;
+            width:70%;
+            height:100%;
+            justify-content: space-between;
+        }
+        .content-1{
+            display: flex;
+            height:30%;
+            width:60%;
+
+        }
+        .content-2{
+            display: flex;
+            justify-content: flex-end;
+            height:20%;
+            width: 35%;
+        }
+        .content-3{
+            display: flex;
+            width: 70%;
+            height:70%;
+        
+        }
+        h2{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bolder;
+            font-size: 0.9em;
+            color: #4F4F4F;
+            
+            
+        }
+        h3::before{
+            content: "(";
+        }
+        h3::after{
+            content: ")";
+        }
+        h3{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 0.8em;
+            color: #4F4F4F;
+        }
+        .contact{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 0.8em;
+            color: #4F4F4F;
+            line-height:1.5em;
+        }
+        .description{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 0.9em;
+            line-height: 22px;
+            color: #828282;
+        }
+        section{
+            display: flex;
+            height:auto;
+            margin-top: -5%;
+            width:95%;
+            background: #F2F2F2;
+            border-radius: 12px;
+            flex-flow: column wrap;
+            align-items: center;
+            
+            
+            
+        }
+
+        .flex-container-1,
+        .flex-container-2{
+            display: flex;
+            height:50em;
+            width:70%;
+            
+            background: #F2F2F2;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        
+        .flex-container-3{
+            display: flex;
+            height:5em;
+            width:80%;
+            flex-direction: column;
+            background: #FFFFFF; 
+            border-radius: 12px;
+            margin-top: 2em;
+            
+        }
+        .progress-bars{
+            display: flex;
+            height:20%;
+            border-radius: 12px;
+            background: #FFFFFF; 
+            width:95%;
+            flex-direction: row ;
+        }
+        .hobbies{
+            display: flex;
+            height:45%;
+            border-radius: 12px;
+            background: #FFFFFF; ;
+            width:95%;
+            flex-direction: column;
+            justify-content: space-around;
+            
+        }
+        .prog-heading{
+            width:25%;
+            height:20%;
+            
+            display: flex;
+            justify-content: flex-start;
+        }
+        .skills{
+            display: flex;
+             width:30%;
+            height: 80%;
+            margin-top:1%;
+        }
+        .skills-2{
+            display: flex;
+            width:55%;
+            height:80%;
+            flex-flow: column;
+            margin-top: 4%;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        li{
+            list-style: none;
+            line-height: 1.7em;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1em;
+            color: #828282;
+        }
+        .hobby-div{
+            display: flex;
+            height:20%;
+            width:100%;
+            justify-content: space-around;
+            
+        }
+        .hobby-img{
+            max-height:100%;
+            max-width:50%;
+            border-radius: 15px;
+            
+        }
+        .hobby-desc{
+            height:100%;
+            width:50%;
+            
+        }
+        .hobby-para{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 0.9em;
+            line-height: 1em;
+            color: #828282;
+        }
+        .products{
+            display: flex;
+            height:50%;
+            border-radius: 12px;
+            background: #FFFFFF; ;
+            width:90%;
+            line-height: 1em;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-content: space-between;
+        }
+       
+        .prod-head{
+            height:20%;
+            width:60%;
+            text-align: center;
+            
+        }
+        .prod-img{
+            height:30%;
+            width:90%;
+            
+            
+        }
+        .prod-desc{
+            height:45%;
+            width:80%;
+
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 0.9em;
+            line-height: 22px;
+            color: #828282;
+
+        }
+        .img-product{
+            max-height:100%;
+            max-width:100%;
+            border-radius: 10px;
+        }
+        .experiences{
+            display: flex;
+            height:30%;
+            border-radius: 12px;
+            background: #FFFFFF; 
+            width:90%;
+            line-height: 1em;
+            flex-flow: row wrap;
+        }
+        .upper{
+            display:flex;
+            height:50%;
+            width:100%;
+            justify-content: space-around;
+        }
+        .sm-box{
+            display: flex;
+            height:80%;
+            width: 40%;
+            justify-content: center;
+            align-items: center;
+        }
+        .projects{
+            width: 85px;
+            height: 33px;
+            border: 1px solid #4F4F4F;
+            box-sizing: border-box;
+            border-radius: 12px;
+
+
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 0.9em;
+            line-height: 22px;
+            color: #828282;
+        }
+        .codes{
+            height:auto;
+            width:90%;
+            display: flex;
+            margin-top: 2em;
+            justify-content: space-between;
+            
+        }
+        .code-1{
+            width:30%;
+            display: flex;
+            flex-flow: row wrap;
+            align-content: space-around;
+            justify-content: space-around;
+            background: white;
+            border-radius: 12px;
+            
+        }
+        .code-img{
+            width:90%;
+            height:30%;
+
+        }
+        .img-code-1{
+            max-height: 100%;
+            min-width: 100%;
+            border-radius: 12px;
+        }
+        .hashtags{
+            width:90%;
+        }
+        .hash{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 0.7em;
+            color: #828282;
+        }
+        .code-heading{
+            width:90%;
+        }
+        .code-content{
+            height:25%;
+            width:90%;
+
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 0.8em;
+            color: #828282;
+            overflow: auto;
+            
+        }
+        .code-button{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .demo{
+            width: 45%;
+        
+            border-radius: 12px;
+            background: white;
+
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1em;
+            color: #2F80ED;
+        }
+        .pages{
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 2em;
+            height:2em;
+            width:90%;
+            
+        }
+        .page-count{
+            
+            display: flex;
+            width:4%;
+            justify-content: center;
+            align-items:center;
+
+            border: 1px solid #4F4F4F;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+        footer{
+            display: flex;
+            height:2%;
+            justify-content: center;
+        }
+        .tail{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 0.8em;
+            color: #828282;
+        }
+        progress{
+            width: 70%;
+        }
+        }
